@@ -11,6 +11,14 @@
   align-items: center;
 }
 
+.content__title{
+  padding-top: 30px;
+}
+
+.content__title > h1{
+  color: #33cc33;
+}
+
 .content__cover > img{
   border:5px solid rgb(144, 144, 144);
   border-radius: 5px;
@@ -26,4 +34,12 @@
 .content__description > p{
   margin-top: 20px;
   color: rgb(198, 197, 197);
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.content__description > a{
+  text-decoration: underline;
+  color: green;
+  padding-left: 15px;
 }
